@@ -25,9 +25,14 @@ This endpoint send data to the server.
 
 You need to press the IO0 button, unplug it, wait 10 seconds, and then plug it back in. After that, do the upload.
 
-Reference: https://www.makerhero.com/blog/utilize-esp32-cam-como-leitor-de-qr-code/
+Reference:
+ - https://www.makerhero.com/blog/utilize-esp32-cam-como-leitor-de-qr-code/
+
+Dependency: 
+ - https://github.com/ThaiEasyElec/ESPIno32CAM
 
 Important:
-Versions 2.0.0 and higher of the core are not compiling with the library (which had its last update in 2019). It worked up to version 1.0.6 of the ESP32 core.
+ - Versions 2.0.0 and higher of the core are not compiling with the library (which had its last update in 2019). 
+ - It worked up to version 1.0.6 of the ESP32 core.
 
 Success!
