@@ -1,0 +1,61 @@
+# Python cache files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+
+# Environment settings
+.env
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE or editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and debug output
+*.log
+*.out
+*.err
+
+# Flask specific
+instance/
+.mypy_cache/
+.pytest_cache/
+
+# Tests
+.tox/
+coverage/
+*.cover
+*.coverage
+.coverage.*
+
+# Package files
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Deployment artifacts
+.DS_Store
+*.bak
+*.sqlite
+*.db
+
+# Linting tools
+.flake8
+.mypy.ini
+.pyre/
+black.log
+isort.log
+
+# Docker
+docker-compose.override.yml
+.dockerignore
